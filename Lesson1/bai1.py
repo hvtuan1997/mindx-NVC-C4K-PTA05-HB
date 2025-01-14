@@ -9,7 +9,7 @@ b = int(f1.readline())
 c = int(f1.readline())
 
 # tinh gia tri bieu thuc
-S = (a*a+b*b+c*c)/(a*b*c) + math.sqrt(a*b*c)
+S = (a * a + b * b + c * c) / (a * b * c) + math.sqrt(a * b * c)
 
 # ghi vao tep dau ra
 f2 = open("ROOT.OUT", "w")
