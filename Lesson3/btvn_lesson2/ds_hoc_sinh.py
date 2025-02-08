@@ -18,8 +18,8 @@ if __name__ == "__main__":
     max_tb = hs1.tinh_DTB()
     hs_max = HocSinh()
     for i in range(1, len(ds)):
-        if max_tb < ds[i].diemTB:
-            max_tb = ds[i].diemTB
+        if max_tb < ds[i].diem_TB:
+            max_tb = ds[i].diem_TB
             hs_max = ds[i]
 
     # hien thi ket qua
